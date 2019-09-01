@@ -1,0 +1,92 @@
+body{padding:0;margin: 0;height:768px;font: 12px "宋体",Arial, Helvetica, sans-serif;}
+
+ul,li {list-style: none;padding:0;margin:0}
+
+a {text-decoration: none;}
+
+a:hover {text-decoration: none;}
+
+.wrapper{
+
+	width:1000px;margin:0 auto;height:768px;;
+
+}
+
+.clear {clear:both;}
+
+.header {background: url('top.jpg') no-repeat;width:1000px;height:84px;}
+
+.header .l1 {text-align:right;padding-top:10px;padding-right:25px;}
+
+.header .l1 a{color:#fff;}
+
+.header .l2 {text-align:right;color:#fff;padding-top:30px;padding-right:25px;}
+
+
+
+.banner {height: 90px}
+
+.banner .c1{float:left;}
+
+.banner .c2{float:left;margin-left:7px;}
+
+
+
+.nav {background: url('nav_bg.gif') repeat-x;width:1000px;height:33px;}
+
+.nav ul{padding:0;margin:0}
+
+.nav ul li{float:left ;line-height: 33px}
+
+.nav ul .t1{ width: 160px;text-align: center;}
+
+.nav ul .t1 a{ color: #fff;font-weight: bold;font-size: 13px}
+
+.nav ul .t2{ color: #fff}
+
+
+
+.title {background:url('titile_bg.jpg') no-repeat;height:49px;line-height:49px;}
+
+.title b {float: left;color: #fff;text-align:center;display:block;font-weight: bold;font-size: 18px;margin-left: 20px;width:180px;}
+
+.title span {float: left;margin-left: 10px;color: #AA996C;font-weight: bold;font-size: 14px}
+
+
+
+.content {height:374px;width: 1000px}
+
+.c-left {float:left;}
+
+.c-right {float:left;color:#AA996C;overflow:auto;width:520px;height:374px;line-height: 30px;font-size:14px;padding:0px 20px 0px 20px;}
+
+.c-right p{text-indent:2em;}
+
+
+
+
+
+
+
+.footer {background:url('foot.gif') no-repeat;height:45px;line-height:45px;}
+
+
+
+#box{position:relative;width:646px;height:324px;background:#fff;margin:0px auto;cursor:pointer;}
+
+#box .list{position:relative;width:646px;height:324px;overflow:hidden;}
+
+#box .list ul{position:absolute;top:0;left:0;}
+
+#box .list li{width:646px;height:324px;overflow:hidden;}
+
+#box .count{position:absolute;right:0;bottom:5px;}
+
+#box .count li{color:#fff;float:left;width:20px;text-align:center;height:20px;line-height:20px;cursor:pointer;margin-right:5px;overflow:hidden;background:#F90;opacity:0.7;filter:alpha(opacity=70);}
+
+#box .count li.current{color:#fff;opacity:1;filter:alpha(opacity=100);font-weight:700;background:#f60;}
+
+#tmp{width:100px;height:100px;background:red;position:absolute;}
+
+
+
